@@ -1,7 +1,6 @@
 """ This is the increment function"""
 class Calculator:
     """ This is the Calculator class"""
-
     result = 0
     def get_result(self):
         """ Get Result of Calculation"""
@@ -18,4 +17,8 @@ class Calculator:
     def multiply_numbers(self, value_a, value_b):
         """ multiply two numbers and store the result"""
         self.result = value_a * value_b
+        return self.result
+    def divide_numbers(self, value_a, value_b):
+        """dividing two numbers and storing the result"""
+        self.result = value_a // value_b
         return self.result
