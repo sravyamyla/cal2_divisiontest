@@ -1,5 +1,5 @@
 # Calculator Project Setup
-[![Build Status](https://app.travis-ci.com/sravyamyla/calc2.svg?branch=main)](https://app.travis-ci.com/sravyamyla/calc2)
+[![Build Status](https://app.travis-ci.com/github/sravyamyla/cal2_divisiontest/jobs/546219129)
 Run Pip Install
 pip install -r requirements.txt
 
