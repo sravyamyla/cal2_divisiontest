@@ -10,5 +10,5 @@ def test_calculator_division():
 def test_calculator_division():
     """ Testing division of two numbers"""
     calc = Calculator()
-    result = calc.divide_numbers(0, 5)
+    result = calc.divide_numbers(5, 0)
     assert result == 5
