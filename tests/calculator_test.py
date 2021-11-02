@@ -41,8 +41,3 @@ def test_calculator_division():
         calc = Calculator()
         result = calc.divide_numbers(0, 5)
         assert result == 0
-def test_calculator_division_exception():
-    """ Testing division exception for division by zero"""
-    calc = Calculator()
-    result = calc.divide_numbers(1, 0)
-    assert result == 0
